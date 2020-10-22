@@ -412,7 +412,7 @@ impl DiagnosticsDisplay {
             Self {
                 name: "Error".to_owned(),
                 texthl: "ALEError".to_owned(),
-                sign_text: "✖".to_owned(),
+                sign_text: "x".to_owned(),
                 sign_texthl: "ALEErrorSign".to_owned(),
                 virtual_texthl: "Error".to_owned(),
             },
@@ -422,7 +422,7 @@ impl DiagnosticsDisplay {
             Self {
                 name: "Warning".to_owned(),
                 texthl: "ALEWarning".to_owned(),
-                sign_text: "⚠".to_owned(),
+                sign_text: "!".to_owned(),
                 sign_texthl: "ALEWarningSign".to_owned(),
                 virtual_texthl: "Todo".to_owned(),
             },
@@ -442,7 +442,7 @@ impl DiagnosticsDisplay {
             Self {
                 name: "Hint".to_owned(),
                 texthl: "ALEInfo".to_owned(),
-                sign_text: "➤".to_owned(),
+                sign_text: ".".to_owned(),
                 sign_texthl: "ALEInfoSign".to_owned(),
                 virtual_texthl: "Todo".to_owned(),
             },
